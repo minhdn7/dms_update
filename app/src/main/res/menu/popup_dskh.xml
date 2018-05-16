@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/btnKhaoSat"
+        android:title="@string/cn_khaosat"/>
+    <item
+        android:id="@+id/btnBinhLuan"
+        android:title="@string/cn_binhluan"/>
+    <item
+        android:id="@+id/btnCheckin"
+        android:title="@string/cn_checkin"/>
+    <item
+        android:id="@+id/btnHinhAnh"
+        android:title="@string/cn_hinhanh"/>
+    <item
+        android:id="@+id/btnLichSu"
+        android:title="@string/cn_lichsu"/>
+    <item
+        android:id="@+id/btnDatHang"
+        android:title="@string/cn_dathang"/>
+
+</menu>

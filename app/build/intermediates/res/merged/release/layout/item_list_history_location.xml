@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dshh_item"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/list_row_selector"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<TextView
+		android:id="@+id/text_view_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:ellipsize="end"
+		android:text="@string/hh_ten"
+		android:textColor="@color/Black"
+		android:textSize="16sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/text_view_username"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:ellipsize="end"
+		android:text="@string/hh_ten"
+		android:textColor="@color/Black"
+		android:textSize="14sp" />
+
+	<TextView
+		android:id="@+id/text_view_location"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:ellipsize="end"
+		android:text="@string/hh_ten"
+		android:textColor="@color/Black"
+		android:textSize="14sp" />
+
+	<TextView
+		android:id="@+id/text_view_level_battery"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:ellipsize="end"
+		android:text="@string/hh_ten"
+		android:textColor="@color/Black"
+		android:textSize="14sp" />
+
+	<TextView
+		android:id="@+id/text_view_network_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:ellipsize="end"
+		android:text="@string/hh_ten"
+		android:textColor="@color/Black"
+		android:textSize="14sp" />
+
+</LinearLayout>

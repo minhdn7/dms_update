@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="80dp"
+	android:orientation="horizontal">
+
+	<TextView
+		android:id="@+id/kh_dem"
+		android:layout_width="40dp"
+		android:layout_height="match_parent"
+		android:background="@color/neo_xanhlam"
+		android:gravity="center"
+		android:padding="8dp"
+		android:text="2"
+		android:textColor="@color/White"
+		android:textSize="16sp"
+		android:textStyle="bold" />
+
+	<RelativeLayout
+		android:id="@+id/dskh_item"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_weight="1"
+		android:background="@drawable/list_row_selector"
+		android:orientation="vertical"
+		android:padding="2dp">
+
+		<ImageView
+			android:id="@+id/kh_thumbnail"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:layout_alignParentLeft="true"
+			android:layout_gravity="center_vertical"
+			android:contentDescription="@string/app_name"
+			android:padding="4dp" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_toRightOf="@+id/kh_thumbnail"
+			android:orientation="vertical"
+			android:padding="4dp">
+
+			<TextView
+				android:id="@+id/kh_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:gravity="center_vertical"
+				android:maxLines="2"
+				android:text="Nhà thuốc"
+				android:textAppearance="?android:attr/textAppearanceListItemSmall"
+				android:textColor="@color/Black"
+				android:textSize="16sp"
+				android:textStyle="bold" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:drawableLeft="@drawable/ic_map_pin_24"
+					android:drawablePadding="5dp"
+					android:text="Địa chỉ: "
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/kh_address"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:ellipsize="end"
+					android:maxLines="2"
+					android:text="Hapulico"
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Trạng thái: "
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/kh_trangthai"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:ellipsize="end"
+					android:maxLines="2"
+					android:text="đã ghé thăm"
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp" />
+
+				<TextView
+				    android:id="@+id/khoangcachimg"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:drawableLeft="@drawable/distance18"
+					android:layout_marginLeft="10dp"					
+					android:text=": "
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp"
+					android:textStyle="bold" />
+
+				<TextView
+				    android:id="@+id/khoangcach"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:ellipsize="end"
+				    android:maxLines="2"
+				    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+				    android:textColor="@color/Black"
+				    android:textSize="14sp" />
+								
+				<TextView
+				    android:id="@+id/donhangimg"
+				    android:drawableLeft="@drawable/donhang18"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text=": "
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/donhang"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:ellipsize="end"
+					android:maxLines="2"
+					android:text="0"
+					android:textAppearance="?android:attr/textAppearanceListItemSmall"
+					android:textColor="@color/Black"
+					android:textSize="14sp" />
+
+				
+												
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:orientation="horizontal" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_width="40dp"
+		android:layout_height="match_parent"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+
+		<!-- <View android:layout_width="1dp" android:layout_height="match_parent" 
+			android:layout_marginBottom="4dp" android:layout_marginTop="4dp" android:background="@color/neo_xanhngoc" 
+			/> -->
+
+		<ImageButton
+			android:id="@+id/kh_chitiet"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/list_row_selector"
+			android:contentDescription="@string/app_name"
+			android:padding="8dp"
+			android:src="@drawable/arrow" />
+	</LinearLayout>
+
+</LinearLayout>

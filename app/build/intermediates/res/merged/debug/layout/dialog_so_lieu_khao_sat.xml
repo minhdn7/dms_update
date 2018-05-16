@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="bottom|center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoKhuyenMaiDMS"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="@dimen/padding_12"
+            android:layout_marginTop="@dimen/padding_4"
+            android:layout_marginBottom="@dimen/padding_4"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/Black"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/padding_8"
+            android:text="@string/VNPTDMS"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/padding_6"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTilteDanhSachKhuyenMai"
+        android:text="@string/soLieuKhaoSat"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:layout_below="@+id/logoKhuyenMaiDMS"
+        android:background="@color/lprimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewSoLieuKhaoSat"
+        android:paddingTop="@dimen/padding_8"
+        android:layout_below="@+id/txtTilteDanhSachKhuyenMai"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <!--nhãn hiệu-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/nhanHieu"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/txtNhanHieu"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"/>
+
+            </LinearLayout>
+
+            <!--chủng loại-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/chungLoai"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/txtChungLoai"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"/>
+
+            </LinearLayout>
+
+
+            <!--nhà phân phối-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/nhaPhanPhoi"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/txtNhaPhanPhoi"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"/>
+
+            </LinearLayout>
+
+            <!--Cp Vận tải-->
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_4"
+            android:paddingBottom="@dimen/padding_4">
+            <TextView
+                android:layout_width="0dp"
+                android:text="@string/cpVanTai"
+                android:paddingLeft="@dimen/padding_10"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:textColor="@color/md_grey_900"
+                android:layout_weight="3"/>
+
+            <EditText
+                android:id="@+id/txtCPVanTai"
+                android:layout_width="0dp"
+                android:text=""
+                android:textSize="14sp"
+                android:paddingLeft="@dimen/padding_4"
+                android:paddingRight="@dimen/padding_10"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:textColor="@color/md_grey_900"
+                android:layout_weight="6.9"
+                android:inputType="number"
+                android:background="@drawable/regtangle_border_grey"/>
+
+        </LinearLayout>
+
+            <!--CP bốc xếp-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/cpBocXep"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <EditText
+                    android:id="@+id/txtCPBocXep"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:text=""
+                    android:inputType="number"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <!--Giá đến CH-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/giaDenCuaHang"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <EditText
+                    android:id="@+id/txtGiaDenCuaHang"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"/>
+
+            </LinearLayout>
+
+            <!--giá bán-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/giaBan"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <EditText
+                    android:id="@+id/txtGiaBan"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"/>
+
+            </LinearLayout>
+
+            <!--sản lượng dự kiến-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="@string/soLuongDuKien"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="3"/>
+
+                <EditText
+                    android:id="@+id/txtSanLuongDuKien"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/md_grey_900"
+                    android:layout_weight="6.9"
+                    android:background="@drawable/regtangle_border_grey"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnThemTiep"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textSize="12sp"
+                    android:background="@drawable/primary_button_selector"
+                    android:layout_gravity="center"
+                    android:text="@string/themNhapTiep"
+                    android:textColor="@color/White"
+
+                    android:textAllCaps="true"
+                    android:layout_marginBottom="@dimen/padding_6"
+                    />
+
+                <Button
+                    android:id="@+id/btnThemDong"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/padding_6"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/primary_button_selector"
+                    android:padding="10dp"
+                    android:text="@string/themDong"
+                    android:textAllCaps="true"
+                    android:textColor="@color/White" />
+
+                <Button
+                    android:id="@+id/btnDong"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/padding_6"
+                    android:background="@drawable/primary_button_selector"
+                    android:padding="10dp"
+                    android:text="@string/dong"
+                    android:textAllCaps="true"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+            <!--end-->
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

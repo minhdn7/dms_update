@@ -1,0 +1,778 @@
+[
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_sale_32_color.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_sale_32_color.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\boder_tablelayout.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\boder_tablelayout.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_hinhanh.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_hinhanh.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_delete2.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_delete2.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_outside_listview.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\border_outside_listview.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_row_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_row_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_drawer_setting_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_drawer_setting_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\donhang18.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\donhang18.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\check.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\distance18.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\distance18.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\poi.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\poi.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_left.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\border_left.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_plus.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_plus.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_current_localtion.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_current_localtion.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_contact_03.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_contact_03.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\chat_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_my_location_32x32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_my_location_32x32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_checkin.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_checkin.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_shopadd_color_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_shopadd_color_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_calendar3.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_calendar3.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_check.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_contact_01.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_contact_01.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_local_themkh_resize.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_local_themkh_resize.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_calendar.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_dathang_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_dathang_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_imgview_press.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_imgview_press.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\regtangle_border_grey.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\regtangle_border_grey.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_location.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_location.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_item_bg_pressed.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_register.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_register.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_send_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_send_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\actionbar_icon_placeholder_compat.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\actionbar_icon_placeholder_compat.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_lichsu_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_lichsu_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_binhluan.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_binhluan.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_calen_white_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_calen_white_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_dialogbtn_press.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_dialogbtn_press.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_refresh_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_refresh_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_check_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_check_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_close_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_close_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_shopok_color_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_shopok_color_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\color_thumb.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\color_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_calendar_32_color.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_calendar_32_color.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\arrow.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\h.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\track.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\track.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_dathang.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_dathang.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_left_right.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\border_left_right.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_close_32_color.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_close_32_color.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\counter_bg.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_imgview_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_imgview_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\actionbar_shadow.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\actionbar_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\swipe_right.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\swipe_right.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_pass2.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_pass2.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_item_bg_normal.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_item_bg_normal.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_delete3.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_delete3.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_search_color_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_search_color_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gray_track.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\gray_track.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_user.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_user.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_imgbtn_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_imgbtn_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_edit.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_edit.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_delete.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_imgbtn_normal.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_imgbtn_normal.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_drawer_shadow.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\navigation_drawer_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\thumb.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\thumb.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_button_normal.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_button_normal.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_border.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_border.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_layout_bg_luu.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_layout_bg_luu.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_dialogbtn_normal.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_dialogbtn_normal.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\e74e5de083b8b89b98b023cffd86e0f5897ed0c5\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_login_user.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_login_user.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_button_press.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_button_press.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_check_24.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_check_24.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_row_bg_hover.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_row_bg_hover.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\alert_dialog_warning.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\alert_dialog_warning.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_dialog.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\swipe_left.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\swipe_left.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_location_2.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_location_2.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_error.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_error.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_warning.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_warning.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_avabl_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_avabl_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_imgview_normal.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_imgview_normal.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_khaosat_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_khaosat_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_checkin_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_checkin_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_right.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\border_right.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_plus2.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_plus2.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_tablelayout_luu.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\border_tablelayout_luu.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ordered.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ordered.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_bg.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\login_bg.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_binhluan_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_binhluan_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\uncheck.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\uncheck.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_thanh_thumbnail.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_thanh_thumbnail.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_row_bg.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_row_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_exit.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_exit.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_layout_bg.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_layout_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\listview_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\listview_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_my_location_blue_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_my_location_blue_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_pass.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_pass.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\custom_google_maps.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\custom_google_maps.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_imgbtn_press.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_imgbtn_press.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_login_lock.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_login_lock.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checked_in.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\checked_in.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_lichsu.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_lichsu.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_row_bg_activated.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\list_row_bg_activated.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_button_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_button_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_khaosat.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_khaosat.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_sign.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_sign.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_launcher.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edittext_bg.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\edittext_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\primary_dialogbtn_selector.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\primary_dialogbtn_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_edit_32_color.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_edit_32_color.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_cn_hinhanh_32.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_cn_hinhanh_32.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_success.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\icon_success.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_contact_02.png",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\drawable\\ic_contact_02.png"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\b2f2784a27ad288417df512fa1acd06a34e83eb5\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    }
+]

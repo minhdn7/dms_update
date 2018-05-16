@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/White">
+
+	<LinearLayout
+		android:id="@+id/DSDH_layout_search"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="4dp"
+		android:background="@drawable/primary_layout_bg"
+		android:orientation="vertical"
+		android:padding="8dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="2dp">
+
+			<EditText
+				android:id="@+id/txtSearch"
+				style="@style/primary_edittext_style"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="2"
+				android:background="@drawable/edittext_bg"
+				android:hint="@string/hint_timKiemDH"
+				android:inputType="number"
+				android:singleLine="true"
+				android:imeOptions="actionDone" />
+
+			<CheckBox
+				android:id="@+id/cb_loaiTK"
+				android:layout_width="80dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:prompt="@string/name_spTrangThai"
+				android:text="Tìm nâng cao" />
+
+
+
+			<Button
+				android:id="@+id/btnClose"
+				style="@style/primary_button_style"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0dp"
+				android:background="@drawable/primary_button_selector"
+				android:text="@string/btn_dong"
+				android:textAllCaps="true"
+				android:textSize="14sp" />
+			
+			<Button
+				android:id="@+id/btnSearch"
+				style="@style/primary_button_style"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/primary_button_selector"
+				android:text="@string/btn_timKiemKH"
+				android:textAllCaps="true"
+				android:layout_marginLeft="10dp"
+				android:textSize="14sp" />
+						
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/layout_adv_search"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:visibility="gone">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="2dp">
+
+				<EditText
+					android:id="@+id/txtMdh"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:background="@drawable/edittext_bg"
+					android:hint="Mã đơn hàng"
+					android:inputType="number"
+					android:singleLine="true"
+					android:imeOptions="actionNext" />
+
+				<EditText
+					android:id="@+id/txtGT"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:layout_marginLeft="10dp"
+					android:background="@drawable/edittext_bg"
+					android:hint="Giá trị"
+					android:singleLine="true"
+					android:imeOptions="actionNext" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="2dp">
+
+				<EditText
+					android:id="@+id/txtKH"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:background="@drawable/edittext_bg"
+					android:hint="Khách hàng"
+					android:singleLine="true"
+					android:imeOptions="actionNext" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:orientation="horizontal">
+
+					<EditText
+						android:id="@+id/txtNgayYCCH"
+						style="@style/primary_edittext_style"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="5"
+						android:layout_marginLeft="10dp"
+						android:background="@drawable/edittext_bg"
+						android:hint="Ngày YCCH"
+						android:inputType="date"
+						android:singleLine="true"
+						android:imeOptions="actionNext" />
+
+					<ImageButton
+						android:id="@+id/btn_ngayCH"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_weight="1"
+						android:background="@drawable/primary_imgbtn_selector"
+						android:src="@drawable/ic_calendar3" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="2dp">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:orientation="horizontal">
+
+					<EditText
+						android:id="@+id/txtNgayBD"
+						style="@style/primary_edittext_style"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="5"
+						android:background="@drawable/edittext_bg"
+						android:hint="Từ ngày"
+						android:inputType="date"
+						android:singleLine="true"
+						android:imeOptions="actionNext" />
+
+					<ImageButton
+						android:id="@+id/btn_ngayBD"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_weight="1"
+						android:background="@drawable/primary_imgbtn_selector"
+						android:src="@drawable/ic_calendar3" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:orientation="horizontal">
+
+					<EditText
+						android:id="@+id/txtNgayKT"
+						style="@style/primary_edittext_style"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="5"
+						android:layout_marginLeft="10dp"
+						android:background="@drawable/edittext_bg"
+						android:hint="Đến ngày"
+						android:inputType="date"
+						android:singleLine="true"
+						android:imeOptions="actionNext" />
+
+					<ImageButton
+						android:id="@+id/btn_ngayKT"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_weight="1"
+						android:background="@drawable/primary_imgbtn_selector"
+						android:src="@drawable/ic_calendar3" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="2dp">
+
+				<EditText
+					android:id="@+id/txtLoaiSP"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:background="@drawable/edittext_bg"
+					android:hint="Loại SP"
+					android:singleLine="true"
+					android:imeOptions="actionNext" />
+
+				<EditText
+					android:id="@+id/txtNgLap"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:layout_marginLeft="10dp"
+					android:background="@drawable/edittext_bg"
+					android:hint="Người lập"
+					android:singleLine="true"
+					android:imeOptions="actionDone" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="2dp">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_weight="1"
+					android:gravity="center_vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Trạng thái đơn hàng"
+						android:textSize="16sp" />
+
+					<Spinner
+						android:id="@+id/spin_tt"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:prompt="@string/name_spTrangThai" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_weight="1"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="10dp">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Nhà cung cấp"
+						android:textSize="16sp" />
+
+					<Spinner
+						android:id="@+id/spin_ncc"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:prompt="@string/name_spTuyen" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:paddingTop="2dp"
+		android:layout_below="@+id/DSDH_layout_search"
+		android:gravity="center_horizontal" />
+
+	<FrameLayout
+		android:id="@+id/layout_bl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/title"
+		android:layout_margin="4dp"
+		android:orientation="horizontal">
+
+		<ListView
+			android:id="@android:id/list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:divider="@color/ldivider"
+			android:dividerHeight="1dp"
+			android:background="@drawable/primary_layout_bg"
+			android:listSelector="@drawable/list_row_selector" />
+
+
+		<TextView
+			android:id="@+id/tv_alert"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:layout_gravity="center"
+			android:textColor="#FF0000"
+			android:textSize="16sp"
+			android:visibility="gone"
+			android:text="@string/text_no_data" />
+	</FrameLayout>
+
+</RelativeLayout>

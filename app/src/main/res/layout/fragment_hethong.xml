@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/White"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@drawable/primary_layout_bg"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="@string/mk_doimk"
+				android:textColor="@color/blue"
+				android:textSize="18sp" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:orientation="vertical">
+
+				<EditText
+					android:id="@+id/et_MatKhauCu"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="8dp"
+					android:layout_weight="1"
+					android:background="@drawable/edittext_bg"
+					android:hint="@string/mk_cu"
+					android:inputType="textPassword" />
+
+				<EditText
+					android:id="@+id/et_MatKhauMoi"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="8dp"
+					android:layout_weight="1"
+					android:background="@drawable/edittext_bg"
+					android:hint="@string/mk_moi"
+					android:inputType="textPassword" />
+
+				<EditText
+					android:id="@+id/et_XacNhan"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="8dp"
+					android:layout_weight="1"
+					android:background="@drawable/edittext_bg"
+					android:hint="@string/mk_xacnhan"
+					android:inputType="textPassword" />
+
+				<Button
+					android:id="@+id/btn_XNDoiMauKau"
+					style="@style/primary_edittext_style"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="8dp"
+					android:layout_weight="1"
+					android:background="@drawable/primary_button_selector"
+					android:text="@string/mk_capnhap"
+					android:textColor="@color/white" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<!-- Time Get Location -->
+<!--
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@drawable/primary_layout_bg"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Cài đặt"
+				android:textColor="@color/blue"
+				android:textSize="18sp" />
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="5dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerInParent="true"
+					android:text="Thời gian gửi thông tin tọa độ về Server"
+					android:textColor="@color/black"
+					android:textSize="16sp" />
+
+				<EditText
+					android:id="@+id/edit_text_time_get_location"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+					android:layout_toLeftOf="@+id/text_view_minutes"
+					android:gravity="right"
+					android:imeOptions="actionDone"
+					android:inputType="number"
+					android:text="5" />
+
+				<TextView
+					android:id="@+id/text_view_minutes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_centerInParent="true"
+					android:text="phút"
+					android:textColor="@color/black" />
+			</RelativeLayout>
+
+			<Button
+				android:id="@+id/btn_update_time_get_location"
+				style="@style/primary_edittext_style"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="8dp"
+				android:background="@drawable/primary_button_selector"
+				android:text="@string/mk_capnhap"
+				android:textColor="@color/white" />
+		</LinearLayout>-->
+
+		<!-- Du lieu offline -->
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@drawable/primary_layout_bg"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Lấy dữ liệu offline"
+				android:textColor="@color/blue"
+				android:textSize="18sp" />
+
+			<TextView
+				android:id="@+id/text_view_status1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="Chưa có dữ liệu offline"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+
+			<Button
+				android:id="@+id/btn_get_data_offline"
+				style="@style/primary_edittext_style"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="8dp"
+				android:background="@drawable/primary_button_selector"
+				android:text="Tải dữ liệu offline"
+				android:textColor="@color/white" />
+		</LinearLayout>
+		
+		
+		<!-- Dong bo du lieu -->
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@drawable/primary_layout_bg"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Đồng bộ dữ liệu offline"
+				android:textColor="@color/blue"
+				android:textSize="18sp" />
+
+			<TextView
+			    android:id="@+id/text_view_status"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="Dữ liệu chưa được đồng bộ"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+
+			<Button
+				android:id="@+id/btn_sync_all"
+				style="@style/primary_edittext_style"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="8dp"
+				android:background="@drawable/primary_button_selector"
+				android:text="@string/mk_dongbo"
+				android:textColor="@color/white" />
+		</LinearLayout>
+	</LinearLayout>
+
+</ScrollView>

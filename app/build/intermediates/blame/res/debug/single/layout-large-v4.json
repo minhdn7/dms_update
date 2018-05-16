@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\dialog_so_lieu_khao_sat.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout-large\\dialog_so_lieu_khao_sat.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_thong_tin_khao_sat.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout-large\\fragment_thong_tin_khao_sat.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_danh_sach_khao_sat2.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout-large\\fragment_danh_sach_khao_sat2.xml"
+    }
+]

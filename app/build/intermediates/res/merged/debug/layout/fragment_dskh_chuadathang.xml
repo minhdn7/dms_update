@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/primary_layout_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_NVKD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/bctk_nvkd"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_searchDSKH"
+                style="@style/primary_button_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/primary_button_selector"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/bctk_search"
+                android:textColor="@color/White" />
+
+            <Spinner
+                android:id="@+id/sp_NVKD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btn_searchDSKH"
+                android:layout_toRightOf="@+id/tv_NVKD"
+                android:gravity="center_vertical" />
+
+            <RelativeLayout
+                android:id="@+id/layout_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sp_NVKD"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/tabRow0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:baselineAligned="false">
+
+                    <TextView
+                        android:id="@+id/lblThang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Tháng" />
+
+                    <Spinner
+                        android:id="@+id/sp_Thang"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/lblThang" />
+
+                    <TextView
+                        android:id="@+id/lblNamn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toLeftOf="@+id/sp_Thang"
+                        android:text="Năm" />
+
+                    <Spinner
+                        android:id="@+id/sp_Nam"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/lblNamn"
+                        android:orientation="horizontal" />
+
+                    <EditText
+                        android:id="@+id/et_startDateDSKH"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_bg" />
+
+                    <ImageView
+                        android:id="@+id/iv_startDateDSKH"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/et_startDateDSKH"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_calendar" />
+
+                    <EditText
+                        android:id="@+id/et_endDateDSKH"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/edittext_bg" />
+
+                    <ImageView
+                        android:id="@+id/iv_endDateDSKH"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/et_endDateDSKH"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_calendar" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/primary_layout_bg"
+        android:orientation="vertical">
+
+        <!-- Row 1 -->
+
+        <!--  Header rpt DSKH Chua dat hang -->
+        <LinearLayout
+            android:id="@+id/linearLayoutKQ_DSKHChuaDathang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/listview_normal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/tabRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border_outside_listview"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".083"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_stt"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".083"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_makh"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".083"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_tenkh"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".209"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_diachi"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".083"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_tansuatgt"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".209"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_tuyen"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".125"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_dsthanggannhat"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".125"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="@string/bctk_ngayDHgannhat"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/listview_normal"
+            android:divider="@color/ldivider"></ListView>
+    </LinearLayout>
+</LinearLayout>

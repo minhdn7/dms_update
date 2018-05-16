@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dskh_item"
+	android:layout_width="match_parent"
+	android:layout_height="80dp"
+	android:background="@drawable/list_row_selector"
+	android:orientation="horizontal">
+
+	<TextView
+		android:id="@+id/counter"
+		android:layout_width="40dp"
+		android:layout_height="match_parent"
+		android:background="@color/neo_xanhlam"
+		android:gravity="center"
+		android:padding="8dp"
+		android:text="2"
+		android:textColor="@color/White"
+		android:textSize="16sp"
+		android:textStyle="bold" />
+
+	<ImageView
+		android:id="@+id/thumbnail"
+		android:layout_width="70dp"
+		android:layout_height="70dp"
+		android:layout_gravity="center_vertical"
+		android:contentDescription="@string/app_name"
+		android:padding="4dp" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:weightSum="10">
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="9"
+			android:padding="4dp">
+
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:text="Tiêu đề"
+				android:textAppearance="?android:attr/textAppearanceListItemSmall"
+				android:textColor="@color/Black"
+				android:textSize="16sp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:ellipsize="end"
+				android:maxLines="2"
+				android:text="Nội dung hình ảnh"
+				android:textAppearance="?android:attr/textAppearanceListItemSmall"
+				android:textColor="@color/Black"
+				android:textSize="14sp" />
+		</LinearLayout>
+
+		<ImageView
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_weight="1"
+			android:id="@+id/btnDeleteImage"
+			android:layout_gravity="center"
+			android:src="@drawable/ic_delete2"/>
+	</LinearLayout>
+
+</LinearLayout>

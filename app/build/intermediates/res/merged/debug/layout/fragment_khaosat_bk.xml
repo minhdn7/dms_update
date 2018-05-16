@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true">
+
+    <LinearLayout
+        android:id="@+id/layout_bl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/primary_layout_bg"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_bienngang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Biển ngang"
+            android:textAllCaps="true"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cb_biendung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Biển đứng"
+            android:textAllCaps="true"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cb_bienvay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Biển vẫy"
+            android:textAllCaps="true"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cb_bienled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Biển Led"
+            android:textAllCaps="true"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spin_poster"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_span="2"
+            android:layout_weight="2"
+            android:dropDownSelector="@array/ds_tuyen"
+            android:prompt="@string/name_spTuyen"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cb_tutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Tủ trưng bày"
+            android:textAllCaps="true"
+            android:visibility="visible" />
+    </LinearLayout>
+    
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/kh_guiBL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/primary_layout_bg"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/btn_ks_capnhat"
+            style="@style/primary_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button_selector"
+            android:contentDescription="@string/cn_khaosat"
+            android:text="@string/kh_xacnhan" />
+
+        <Button
+            android:id="@+id/btn_ks_refresh"
+            style="@style/primary_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button_selector"
+            android:contentDescription="@string/cn_khaosat"
+            android:text="@string/btn_refresh" />
+
+        <Button
+            android:id="@+id/btn_ks_close"
+            style="@style/primary_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button_selector"
+            android:contentDescription="@string/cn_khaosat"
+            android:text="@string/btn_dong" />
+    </LinearLayout>
+
+</RelativeLayout>

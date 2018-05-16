@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="bottom|center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoKhuyenMaiDMS"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="@dimen/padding_12"
+            android:layout_marginTop="@dimen/padding_4"
+            android:layout_marginBottom="@dimen/padding_4"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/Black"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/padding_8"
+            android:text="@string/VNPTDMS"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/padding_6"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTilteDanhSachKhuyenMai"
+        android:text="@string/danhSachLuaChonKhuyenMai"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:layout_below="@+id/logoKhuyenMaiDMS"
+        android:background="@color/lprimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewDanhSachKhuyenMai"
+        android:paddingTop="@dimen/padding_8"
+        android:layout_below="@+id/txtTilteDanhSachKhuyenMai"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!--Khuyến mại lựa chọn ưu tiên-->
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="@dimen/padding_4"
+        android:paddingLeft="@dimen/padding_2"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKhuyenMaiLuaChonUuTien"
+        android:text="@string/khuyenMaiLuaChonUuTien"
+        android:textAllCaps="true"
+        android:textColor="@color/neoxanhlam"
+        android:background="@color/White"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/year"
+        android:layout_height="1dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lvDanhSachKhuyenMaiUuTien"
+        android:layout_height="200dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/year"
+        android:layout_height="1dp"/>
+    <!--end-->
+
+    <!--Khuyến mại lựa chọn không ưu tiên-->
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="@dimen/padding_4"
+        android:paddingLeft="@dimen/padding_2"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKhuyenMaiLuaChonKhongUuTien"
+        android:text="@string/khuyenMaiLuaChonKhongUuTien"
+        android:textAllCaps="true"
+        android:textColor="@color/neoxanhlam"
+        android:background="@color/White"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/year"
+        android:layout_height="1dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lvDanhSachKhuyenMaiKhongUuTien"
+        android:layout_height="200dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/year"
+        android:layout_height="1dp"/>
+    <!--end-->
+</LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btnXacNhanKhuyenMai"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:background="@color/neo_xanhlam"
+        android:layout_gravity="center"
+        android:text="@string/xacNhan"
+        android:textColor="@color/White"
+        android:textAllCaps="true"
+        android:layout_marginBottom="@dimen/padding_6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

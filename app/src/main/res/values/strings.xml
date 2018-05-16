@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--key realease-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBdO5cvCBUCmbZoNN6wEe9sQlozZwrtGG8</string>
+
+    <!--key debug-->
+    <!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDUZahz83dGhvguTzdRakj_xAX3_o29ag8</string>-->
+
+    <string name="google_app_id">vn.com.vsc.ptpm.VNPT_DMS</string>
+    <string name="test">Add 8dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</string>
+    <string name="app_name">VNPT DMS</string>
+    <string name="app_name_test">DMS TEST</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="load_data">Đang tải dữ liệu. Vui lòng chờ trong giây lát...</string>
+    <string name="errmsg">Kết nối không thành công đến máy chủ. Hãy thử lại !</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="khongTimThayDuLieu">Không tìm thấy dữ liệu</string>
+
+    <string name="back_again_exit">Click một lần nữa để thoát</string>
+    <string name="kh_add_new">Thêm mới</string>
+    <string name="kh_add_offline">Thêm mới Offline</string>
+    <string name="action_delete">Xóa</string>
+    <string name="text_button_close">Đóng</string>
+    <string name="title_get_address">Lấy địa chỉ</string>
+    <string name="tip_upload">Hình ảnh tải lên &lt; 10MB, hỗ trợ các định dạng png, jpg</string>
+    <string name="tit_attach">Đính kèm: </string>
+
+
+    <!-- Text Common -->
+    <string name="text_button_search">TÌM KIẾM</string>
+
+    <!-- List Menu Items Offline -->
+    <string-array name="list_item_menu_offline">
+        <item>Danh sách Khách hàng</item>
+        <item>Danh sách Nhà cung cấp</item>
+        <item>Hình thức thanh toán</item>
+        <item>Kiểu kinh doanh</item>
+        <item>Danh sách Hàng hóa</item>
+        <item>Danh sách Tuyến</item>
+        <item>Danh sách Tuyến Khách hàng</item>
+    </string-array>
+
+
+    <!-- List Menu Items Sync -->
+    <string-array name="list_item_menu_sync">
+        <item>Danh sách Khách hàng mới</item>
+        <item>Danh sách Đơn hàng mới</item>
+        <item>Lịch sử vị trí</item>
+        <item>Lịch sử Checkin/Checkout</item>
+    </string-array>
+
+
+    <!-- List Context Menu -->
+    <string-array name="list_item_context_menu">
+        <item>Xóa bản ghi</item>
+        <item>Chỉnh sửa</item>
+        <item>Gửi</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Tuyến và khách hàng</item>
+        <item>Quản lý đơn đặt hàng</item>
+        <item>Báo cáo thống kê</item>
+        <item>Thêm mới KH</item>
+        <item>Hàng hóa</item>
+        <item>Khuyến mại</item>
+        <item>Hệ thống</item>
+        <item>Khảo sát</item>
+        <!-- <item>Dữ liệu Offline</item> -->
+        <!-- <item>Đồng bộ dữ liệu</item> -->
+        <item>Thoát</item>
+        <item>Danh sách tuyến</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_drawer_tuyen_32</item>
+        <item>@drawable/ic_drawer_donhang_32</item>
+        <item>@drawable/ic_drawer_baocao_32</item>
+        <item>@drawable/ic_drawer_themkh_32</item>
+        <item>@drawable/ic_drawer_hanghoa_32</item>
+        <item>@drawable/ic_drawer_khuyenmain_32</item>
+        <item>@drawable/ic_drawer_setting_32</item>
+        <item>@drawable/ic_drawer_data_offline_32</item>
+
+        <!-- <item>@drawable/ic_drawer_dongbo_32</item> -->
+        <item>@drawable/ic_exit</item>
+        <item>@drawable/ic_cn_checkin_32</item>
+    </array>
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_login_ui">LoginUI</string>
+    <string name="txt_username">User name</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_DangNhap">Đăng Nhập</string>
+    <string name="btn_Huy">Hủy</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_login">Chức năng</string>
+    <!-- Login activity -->
+    <string name="login_taikhoan">Tài khoản</string>
+    <string name="login_matkhau">Mật khẩu</string>
+    <string name="login_dangnhap">Đăng nhập</string>
+    <string name="login_ghinho">Ghi nhớ tài khoản</string>
+    <string name="login_copyright">Copyright \u00a9 VNPT SOFTWARE</string>
+
+    <!-- Tuyen fragment -->
+    <string name="hint_timKiemKH">Tìm kiếm khách hàng</string>
+    <string name="btn_timKiemKH">Tìm kiếm</string>
+    <string name="name_spTrangThai">Chọn trạng thái</string>
+
+    <string-array name="trang_thai">
+        <item>Tất cả</item>
+        <item>Đã đặt và gửi đơn</item>
+        <item>Đã ghé thăm</item>
+        <item>Chưa ghé thăm</item>
+        <item>Chưa cập nhật vị trí</item>
+        <item>Chưa upload ảnh</item>
+    </string-array>
+
+    <string name="name_spTuyen">Chọn danh sách tuyến</string>
+
+    <string-array name="ds_tuyen">
+        <item>Chủ nhật</item>
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>Ngoại tuyến</item>
+    </string-array>
+
+    <string name="cn_khaosat">Khảo sát</string>
+    <string name="cn_binhluan">Bình luận</string>
+    <string name="cn_checkin">Check-in</string>
+    <string name="cn_checkout">Check-out</string>
+    <string name="cn_hinhanh">Hình ảnh</string>
+    <string name="cn_lichsu">Lịch sử</string>
+    <string name="cn_dathang">Đặt hàng</string>
+    <!-- custom dialog thong tin -->
+    <string name="d_title">Thống kê tuyến làm việc</string>
+    <string name="d_tongKH">Tổng số khách hàng:</string>
+    <string name="d_daGTCL">Đã ghé thăm/còn lại:</string>
+    <string name="khachHangNgoaiTuyenGheTham">Số khách hàng ngoại tuyến đã ghé thăm:</string>
+    <string name="d_soKHDH">Số KH đặt hàng:</string>
+    <string name="d_soDH">Số đơn hàng:</string>
+    <string name="d_tongtienhang">Tổng tiền hàng:</string>
+    <!-- custom dialog ghe tham -->
+    <string name="d_gps_title">Tra cứu theo tuyến đường, GPS</string>
+    <string name="d_gps_bk">Nhập bán kính tìm kiếm (m)</string>
+
+    <!-- action bar -->
+    <string name="act_ghetham">Ghé thăm</string>
+    <string name="act_bando">Bản đồ</string>
+    <string name="act_thongtin">Thông tin</string>
+    <string name="act_dathang">Đặt hàng</string>
+    <!-- Binh luan fragment -->
+    <string name="hint_binhluan">Nhập nội dung bình luận</string>
+    <string name="title_activity_map">Bản đồ</string>
+    <string name="title_activity_bao_cao">BaoCaoActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <!-- LSDH fragment -->
+    <string name="hint_timKiemDH">Tìm kiếm Đơn hàng</string>
+    <!-- string popup -->
+    <string name="pop_ks">Khảo sát</string>
+    <string name="pop_bl">Bình luận</string>
+    <string name="pop_ci">Check-in</string>
+    <string name="pop_ha">Hình ảnh</string>
+    <string name="pop_ls">Lịch sử ĐH</string>
+    <string name="pop_dh">Đặt hàng</string>
+    <!-- btn name -->
+    <string name="btn_cn">Cập nhật</string>
+    <string name="btn_refresh">Làm mới</string>
+    <string name="btn_dong">Đóng</string>
+    <string name="btn_gui">Gửi</string>
+    <string name="btn_upload">Tải lên</string>
+    <string name="btn_take_photo">Chụp ảnh</string>
+    <string name="btn_xoa">Xóa</string>
+    <string name="btn_tinhKM">Tính K.Mại</string>
+    <string name="btn_sua">Sửa</string>
+
+    <!-- Duy -->
+    <string name="kh_matv">Mã khách hàng</string>
+    <string name="mk_doimk">Đổi mật khẩu</string>
+    <string name="mk_cu">Mật khẩu cũ</string>
+    <string name="mk_moi">Mật khẩu mới</string>
+    <string name="mk_xacnhan">Xác nhận</string>
+    <string name="mk_capnhap">Cập nhật</string>
+    <string name="mk_dongbo">Đồng bộ dữ liệu</string>
+    <string name="nodata">Không có dữ liệu !</string>
+    <string name="search_hh">Từ khóa</string>
+    <string name="kh_thongtin">Thông tin khách hàng</string>
+    <string name="kh_them">Thêm khách hàng</string>
+    <string name="kh_ma">Mã khách hàng (nếu không nhập hệ thống sẽ tự sinh)</string>
+    <string name="kh_ten">Tên khách hàng</string>
+    <string name="kh_tennql">Tên người quản lý</string>
+    <string name="kh_sdt">Số điện thoại   </string>
+    <string name="kh_fax">Fax</string>
+    <string name="kh_email">Email</string>
+    <string name="kh_diachi">Địa chỉ</string>
+    <string name="kh_mst">Mã số thuế</string>
+    <string name="kh_lkh">Loại khách hàng</string>
+    <string name="kh_note">Ghi chú</string>
+    <string name="kh_dathn">Đặt hàng ngay</string>
+    <string name="kh_huybo">Hủy bỏ</string>
+    <string name="kh_xacnhan">Cập nhật</string>
+    <string name="hh_ten">Tên hàng hóa</string>
+    <string name="addr_dia_chiKH">Địa chỉ Khách hàng</string>
+    <string name="addr_cap_nhap_localtion">Cập nhật</string>
+    <string name="addr_thoat">Thoát</string>
+    <string name="location_kh">Vị trí của KH</string>
+    <string name="location_me">Vị trí của bạn</string>
+    <string name="type_company_promt">Không chọn</string>
+    <string name="addr_map_title">Cập nhật vị trí</string>
+    <string name="addr_map_title2">Lấy thông tin vị trí</string>
+    <string name="gallery_title">Hình ảnh hàng hóa</string>
+    <string name="bctk_nvkd">NVKD</string>
+    <string name="bctk_search">Tìm kiếm</string>
+    <string name="bctk_noidung">Nội dung</string>
+    <string name="bctk_chitieu">Kế hoạch</string>
+    <string name="bctk_ketquaTH">Thực hiện</string>
+    <string name="bctk_conlai">Còn lại</string>
+    <string name="bctk_tiendo">Tiến độ (%)</string>
+    <string name="bctk_kpi">(%)</string>
+    <string name="bctk_doanhso">Doanh số</string>
+    <string name="bctk_nangsuat">Sản lượng</string>
+    <string name="bctk_soKHdaghetham">Số KH đã ghé thăm</string>
+    <string name="bctk_soKHmoi">Số KH mới</string>
+    <string name="bctk_PPchungloai">Tổng thời gian làm việc</string>
+
+    <string name="bctk_donhangthanhcongngay">Ghé thăm/Ngày</string>
+    <string name="bctk_skuDonhang">SKU/Đơn hàng</string>
+    <string name="bctk_binhquandsdonhang">Năng suất/Ngày</string>
+    <string name="bctk_tongdoanhso">Doanh số/Ngày</string>
+    <string name="bctk_tyleghetham">Tỷ lệ đặt hàng/Tháng</string>
+    <string name="bctk_khmoi">KH mới mở/Tháng</string>
+
+    <string name="bctk_stt">STT</string>
+    <string name="bctk_makh">Mã KH</string>
+    <string name="bctk_tenkh">Tên KH</string>
+    <string name="bctk_diachi">Địa chỉ</string>
+    <string name="bctk_tuyen">Tuyến</string>
+    <string name="bctk_tansuatgt">Tần suất GT</string>
+    <string name="bctk_dsthanggannhat">DS tháng gần nhất</string>
+    <string name="bctk_ngayDHgannhat">Ngày ĐH gần nhất</string>
+    <string name="bctk_total_dskh_chuadh">Kết quả tìm kiếm : </string>
+
+    <string name="status_chuaghetham">Chưa ghé thăm</string>
+    <string name="status_daghetham">Đã ghé thăm</string>
+    <string name="status_codonhang">Có đơn hàng</string>
+    <string name="text_hint_makhachhang">Mã khách hàng</string>
+    <string name="text_no_data">Chưa có dữ liệu</string>
+    <string name="title_data_offline">Dữ liệu Offline</string>
+    <string name="title_data_sync">Dữ liệu đồng bộ</string>
+    <!--Thông báo-->
+    <string name="error_network">Lỗi kết nối</string>
+    <string name="error_no_response">Lỗi dữ liệu không đúng</string>
+    <string name="error_network_http_error">Lỗi kết nối</string>
+    <string name="error_unknown">Lỗi kết nối</string>
+    <string name="connect_success">Kết nối thành công</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--thêm mới khuyến mại-->
+    <string name="khuyenMai">Khuyến mại</string>
+    <string name="tuDong">Tự động</string>
+    <string name="thuCong">Thủ công</string>
+    <string name="danhSachLuaChonKhuyenMai">Danh sách lựa chọn khuyến mại</string>
+    <string name="khuyenMaiLuaChonUuTien">Khuyến mại lựa chọn ưu tiên</string>
+    <string name="khuyenMaiLuaChonKhongUuTien">Khuyến mại lựa chọn không ưu tiên</string>
+    <string name="stt">STT</string>
+    <string name="idMa">id/Mã</string>
+    <string name="tenChuongTrinh">Tên chương trình</string>
+    <string name="kieu">Kiểu</string>
+    <string name="ngayHieuLuc">Ngày hiệu lực</string>
+    <string name="xacNhan">Xác nhận</string>
+    <string name="dangLayDanhSachKhuyenMai">Đang lấy danh sách khuyến mại...</string>
+    <string name="VNPTDMS">VNPT DMS</string>
+    <string name="tienKhuyenMai">Tiền khuyến mại</string>
+    <string name="thongBao">thông báo</string>
+    <string name="thongBaoTienKhuyenMaiAm">Tổng tiền đơn hàng đang có giá trị âm!</string>
+
+    <!--tạo đơn hàng-->
+    <string name="taoDonHang">Tạo đơn hàng</string>
+
+    <!--khảo sát-->
+    <string name="thangKhaoSat">Tháng:</string>
+    <string name="tuanKhaoSat">Tuần</string>
+    <string name="ngayKhaoSat">Ngày thực hiện</string>
+    <string name="ngayThucHien">Ngày thực hiện:</string>
+    <string name="thongTinKhachHang">Thông tin khách hàng</string>
+    <string name="thongTinTuyen">Thông tin tuyến</string>
+    <string name="thang">Tháng</string>
+    <string name="phanHoi">Phản hồi</string>
+    <string name="soLieuKhaoSat">Số liệu khảo sát</string>
+    <string name="them">Thêm</string>
+    <string name="nhanHieu">Nhãn hiệu:</string>
+    <string name="chungLoai">Chủng loại:</string>
+    <string name="nhaPhanPhoi">Nhà phân phối:</string>
+    <string name="cpVanTai">Chi phí vận tải:</string>
+    <string name="cpBocXep">Chi phí bốc xếp:</string>
+    <string name="giaDenCuaHang">Giá đến cửa hàng:</string>
+    <string name="giaBan">Giá bán:</string>
+    <string name="soLuongDuKien">Sản lượng dự kiến:</string>
+    <string name="themNhapTiep">Thêm  &amp; Nhập tiếp</string>
+    <string name="themDong">Thêm  &amp; Đóng</string>
+    <string name="dong">Đóng</string>
+    <string name="thoat">Thoát</string>
+    <string name="khachHang">Khách hàng</string>
+    <string name="thongTinKhaoSat">Thông tin khảo sát</string>
+    <string name="nhanHieu2">Nhãn hiệu</string>
+    <string name="chungLoai2">Chủng loại</string>
+    <string name="nhaPhanPhoi2">Nhà phân phối</string>
+    <string name="cpVanTai2">CP vận tải</string>
+    <string name="cpBocXep2">CP bốc xếp</string>
+    <string name="giaDenCuaHang2">Giá đến CH</string>
+    <string name="giaBan2">Giá bán</string>
+    <string name="sanLuongDuKien2">Sản lượng dự kiến</string>
+    <string name="capNhat">Cập nhật</string>
+    <string name="sua">Sửa</string>
+    <string name="ghiLai">Ghi lại</string>
+    <string name="trangThai">Trạng thái</string>
+    <string name="nhanVienKinhDoanh">Nhân viên kinh doanh</string>
+    <string name="ghiChu">Ghi chú</string>
+    <string name="khachHangDaDangKy">Khách hàng đã đăng ký</string>
+    <string name="tuKhoa">Từ khóa:</string>
+    <string name="vung">Vùng:</string>
+    <string name="khuVuc">Khu vực:</string>
+    <string name="tinh">Tỉnh:</string>
+    <string name="quanHuyen">Quận/Huyện:</string>
+    <string name="timKiem">Tìm kiếm</string>
+
+    <!--đơn hàng Glab-->
+    <string name="lapDonHang">Lập đơn hàng</string>
+    <string name="ngayLayMau">Ngày/giờ lấy mẫu:</string>
+    <string name="hoTen">Họ và tên:</string>
+    <string name="namSinh">Năm sinh:</string>
+    <string name="gioiTinh">Giới tính:</string>
+    <string name="diaChi">Địa chỉ:</string>
+    <string name="email">Email:</string>
+    <string name="dienThoai">Điện thoại:</string>
+    <string name="chuanDoan">Chuẩn đoán:</string>
+    <string name="ngayGioHenTra">Ngày giờ hẹn trả:</string>
+    <string name="tienKhuyenMai2">Tiền khuyến mại:</string>
+    <string name="danhSachXetNghiem">danh sách xét nghiệm</string>
+    <string name="ma">Mã</string>
+    <string name="ten">Tên</string>
+    <string name="thanhTien">Thành tiền</string>
+    <string name="danhMucXetNghiem">Danh mục xét nghiệm</string>
+    <string name="inBienLai">In biên lai</string>
+    <string name="chon">Chọn</string>
+    <string name="title_activity_print">PrintActivity</string>
+    <string name="inHoaDon">In hóa đơn</string>
+    <string name="tongTienHang">Tổng tiền hàng</string>
+
+    // title
+    <string name="quanLyDonDatHang">Quản lý đơn đặt hàng</string>
+    <string name="danhSachTuyen">Danh sách tuyến</string>
+    <string name="timKiemKhachhang">Tìm kiếm khách hàng</string>
+
+    <!--code error-->
+    <string name="codeFalseNoManager">Bạn không phải là Quản lý của NVKD đã đăng ký tuyến này. Vui lòng kiểm tra lại!</string>
+    <string name="codeFalseStatus">Đăng ký tuyến đã được PHÊ DUYỆT. Không thể XÓA!</string>
+    <string name="codeFalseNoPermission">Bạn không có quyền thao tác XÓA dữ liệu</string>
+    <string name="codeFalseWeek1">Thời gian đăng ký không hợp lệ (Tuần đăng ký phải lớn hơn tuần hiện tại)!</string>
+    <string name="codeFalseWeek2">Bạn cần phải chọn ngày để xác định tuần đăng ký tuyến!</string>
+    <string name="codeFalseCode">Bạn đã đăng ký tuyến cho tuần làm việc này. Vui lòng kiểm tra lại!</string>
+    <string name="codeFalseStatus2">Đăng ký tuyến đã được PHÊ DUYỆT. Không thể cập nhật!</string>
+    <string name="codeFalsePerson">Bạn không có quyền thao tác CẬP NHẬT!</string>
+    <string name="banSanPhamCongTy">Có bán sản phẩm của công ty?</string>
+    <string name="timNangCao">Tìm nâng cao</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.com.vsc.ptpm.VNPT_DMS"
+    android:versionCode="33"
+    android:versionName="2.0.1">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <permission
+        android:name="vn.com.vsc.ptpm.VNPT_DMS.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="vn.com.vsc.ptpm.VNPT_DMS.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/MyTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".view.activities.Login"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activities.MainActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".view.activities.MapActivity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="sensorLandscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vn.BaoCaoActivity"
+            android:label="@string/title_activity_bao_cao"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".vn.UploadActivity"
+            android:label="@string/title_activity_upload"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".view.activities.AddrActivity"
+            android:label="@string/addr_map_title"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".view.activities.Addr2Activity"
+            android:label="@string/addr_map_title2"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".view.activities.DataDetailOffline"
+            android:label="@string/title_data_offline"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".view.activities.DataDetailSync"
+            android:label="@string/title_data_sync"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".view.activities.ImagePopupActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" />
+
+        <service
+            android:name=".common.LocationUpdate.LocationService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.LocationService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".common.LocationUpdate.SendDataLocationService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.SendDataLocationService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".dao.service.CheckIntentService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="vn.com.vsc.ptpm.VNPT_DMS.dao.service.CheckIntentService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".vn.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name=".vn.BootReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Utils.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".common.LocationUpdate.RestartServiceReceiver">
+            <intent-filter>
+                <action android:name="YouWillNeverKillService" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="5422f78fb4c120aa78be98d35b46f94b0ac60976" />
+
+        <activity
+            android:name=".view.activities.glab.DeviceListActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" />
+        <activity
+            android:name=".view.activities.glab.PrintActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,704 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:2:1-167:12
+	package
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\minhd\.android\build-cache\38815473b0a7d659ca751986c1152c29c296dfd4\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\minhd\.android\build-cache\a8e7d26963f472acab48ed19b4260669c2185f1e\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\minhd\.android\build-cache\022172e57b3a4dfb00b92dd50304e58cf106938c\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\minhd\.android\build-cache\66e1e86828067d43eef6bcc7ba5de03dbe627f82\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\minhd\.android\build-cache\58e54e0b5d18c5d5d8dbc172ee7b9f40aaf61d08\output\AndroidManifest.xml:27:5-43
+MERGED from [com.kaopiz:kprogresshud:1.1.0] C:\Users\minhd\.android\build-cache\01b96983cd307972deeafd3fb0217a07f3b1e249\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\minhd\.android\build-cache\c7fe0690e63108d0af9fb44c63bb0f7a0438328c\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] C:\Users\minhd\.android\build-cache\52e9f97b6b5e069b7b6ba4c302e507e8e2a52e8c\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\minhd\.android\build-cache\279bc05a93862619df43adfc8f22fcfab8ed9ecc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] C:\Users\minhd\.android\build-cache\0171d7cff620efe989a1dee47bca5e6dcca52f90\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] C:\Users\minhd\.android\build-cache\e74e5de083b8b89b98b023cffd86e0f5897ed0c5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\minhd\.android\build-cache\b2f2784a27ad288417df512fa1acd06a34e83eb5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\minhd\.android\build-cache\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] C:\Users\minhd\.android\build-cache\ef7a7df4c6ef24c70e034efaf012c6880798ae69\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] C:\Users\minhd\.android\build-cache\a18d607d46505d4d764518b8316d19d03a0ea3c2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] C:\Users\minhd\.android\build-cache\c6f335b6583156a655d17676862b41599365fe7c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-auth:9.4.0] C:\Users\minhd\.android\build-cache\58cc7637998bbcad1c73b05a1475f30148add9e7\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] C:\Users\minhd\.android\build-cache\691ebe860a03676e2b9ff02964a968ea028f0062\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] C:\Users\minhd\.android\build-cache\3755abb5605a5a3bbdc014967067ab02d2acfac2\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] C:\Users\minhd\.android\build-cache\bed866d7cadfd1d9deb220b438c24017b859402c\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] C:\Users\minhd\.android\build-cache\79d026e1ec7a4e8c9f1b53f60dcb7f5de08b665e\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-storage:9.4.0] C:\Users\minhd\.android\build-cache\1eeb68479bd279366707f63c61ee55e5890c7f95\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] C:\Users\minhd\.android\build-cache\648c2013ce9f633d847a3c655a3285d2135f649f\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] C:\Users\minhd\.android\build-cache\473c1cc2daeb09a3334c9d0c011eb0bc01463943\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] C:\Users\minhd\.android\build-cache\69cc9a25e408ad228062dff96cb7b9a455e534d3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] C:\Users\minhd\.android\build-cache\1920c9253bd3568194b3973594aedbb1abbe66b3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] C:\Users\minhd\.android\build-cache\0336d97a5fb4725da02314ca1948e7f47373f81a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] C:\Users\minhd\.android\build-cache\13404087c0973a12e233f8802bfb9728514f4528\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] C:\Users\minhd\.android\build-cache\d7e4d770c87acc1573012359997e4d060a85447e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] C:\Users\minhd\.android\build-cache\8dadd445d0dd9e11a53de099847b7aaed2558d30\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] C:\Users\minhd\.android\build-cache\f2852186d0e281161b2b0b03db6f7a2612f7b14a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\minhd\.android\build-cache\e5c84a3e507a28d8b86005dbb2b829329e75ece8\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] C:\Users\minhd\.android\build-cache\ae1eadf2597a15e25bd7921713256d223cef504b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] C:\Users\minhd\.android\build-cache\0a219c5841d85f6a43c3b1955eef92956f19420a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] C:\Users\minhd\.android\build-cache\cf91ea30a24897216915154e900c5b65c879a7d4\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] C:\Users\minhd\.android\build-cache\b3e57e71c91b1313c3713acf06b6d6f07054a31c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] C:\Users\minhd\.android\build-cache\f3d24b84375b93ec16b9ec87488448953ace1eb8\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\4da486f657f62550b966a9a1fbab42637a26d9a8\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\minhd\.android\build-cache\da5b8052785df6c311a93002db909c129955aed1\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] C:\Users\minhd\.android\build-cache\1ed1e0598392f0078f953db6bd8c37cbc9723f01\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] C:\Users\minhd\.android\build-cache\a6053dd5176a861a21727585dfa408dfc4aec70f\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\minhd\.android\build-cache\746fd897844370350f3374c25eadc0c90e2fada5\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] C:\Users\minhd\.android\build-cache\54d09291e794c27b68086a74efd6811248fced44\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\minhd\.android\build-cache\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\minhd\.android\build-cache\808b25b5cc0597f91008b3406ec7199c8a244afc\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\minhd\.android\build-cache\ccca43cb53e3cab51ae8b9ce7e721ffabff286f2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\minhd\.android\build-cache\10047c73deec6cf792de1870e13c9db604b6e90e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\minhd\.android\build-cache\81e714fc96998b81d9a3471b5ae38547de8c369f\output\AndroidManifest.xml:18:5-42
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\minhd\.android\build-cache\4445f08257feeb0e25135e208652fafd17191455\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\minhd\.android\build-cache\d1fb13fc30c6a2cd1946a77799d5d7c6fb36a140\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml
+permission#vn.com.vsc.ptpm.VNPT_DMS.permission.MAPS_RECEIVE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:12:9-72
+uses-feature#android.hardware.camera
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:15:19-57
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:19:22-71
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:20:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\minhd\.android\build-cache\38815473b0a7d659ca751986c1152c29c296dfd4\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\minhd\.android\build-cache\a8e7d26963f472acab48ed19b4260669c2185f1e\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\minhd\.android\build-cache\022172e57b3a4dfb00b92dd50304e58cf106938c\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\minhd\.android\build-cache\66e1e86828067d43eef6bcc7ba5de03dbe627f82\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\minhd\.android\build-cache\58e54e0b5d18c5d5d8dbc172ee7b9f40aaf61d08\output\AndroidManifest.xml:29:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\minhd\.android\build-cache\279bc05a93862619df43adfc8f22fcfab8ed9ecc\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] C:\Users\minhd\.android\build-cache\13404087c0973a12e233f8802bfb9728514f4528\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] C:\Users\minhd\.android\build-cache\8dadd445d0dd9e11a53de099847b7aaed2558d30\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\4da486f657f62550b966a9a1fbab42637a26d9a8\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\minhd\.android\build-cache\746fd897844370350f3374c25eadc0c90e2fada5\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:21:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\minhd\.android\build-cache\279bc05a93862619df43adfc8f22fcfab8ed9ecc\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\minhd\.android\build-cache\e5c84a3e507a28d8b86005dbb2b829329e75ece8\output\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\4da486f657f62550b966a9a1fbab42637a26d9a8\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\minhd\.android\build-cache\746fd897844370350f3374c25eadc0c90e2fada5\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:25:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:28:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\minhd\.android\build-cache\279bc05a93862619df43adfc8f22fcfab8ed9ecc\output\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\4da486f657f62550b966a9a1fbab42637a26d9a8\output\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:28:22-65
+uses-permission#vn.com.vsc.ptpm.VNPT_DMS.permission.MAPS_RECEIVE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:29:5-88
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:29:22-85
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:30:5-98
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:30:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:31:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:32:22-76
+uses-feature#android.hardware.location
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:34:5-36:35
+	android:required
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:36:9-32
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:35:9-49
+uses-feature#android.hardware.location.gps
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:37:5-39:35
+	android:required
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:39:9-32
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:38:9-53
+uses-feature#0x00020000
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:40:5-42:35
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\minhd\.android\build-cache\746fd897844370350f3374c25eadc0c90e2fada5\output\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:41:9-41
+	android:required
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:42:9-32
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:44:22-72
+application
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:46:5-165:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\minhd\.android\build-cache\38815473b0a7d659ca751986c1152c29c296dfd4\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\minhd\.android\build-cache\a8e7d26963f472acab48ed19b4260669c2185f1e\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\minhd\.android\build-cache\022172e57b3a4dfb00b92dd50304e58cf106938c\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\minhd\.android\build-cache\66e1e86828067d43eef6bcc7ba5de03dbe627f82\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\minhd\.android\build-cache\58e54e0b5d18c5d5d8dbc172ee7b9f40aaf61d08\output\AndroidManifest.xml:31:5-20
+MERGED from [com.kaopiz:kprogresshud:1.1.0] C:\Users\minhd\.android\build-cache\01b96983cd307972deeafd3fb0217a07f3b1e249\output\AndroidManifest.xml:11:5-13:38
+MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\minhd\.android\build-cache\c7fe0690e63108d0af9fb44c63bb0f7a0438328c\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\minhd\.android\build-cache\279bc05a93862619df43adfc8f22fcfab8ed9ecc\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] C:\Users\minhd\.android\build-cache\e74e5de083b8b89b98b023cffd86e0f5897ed0c5\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\minhd\.android\build-cache\b2f2784a27ad288417df512fa1acd06a34e83eb5\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\minhd\.android\build-cache\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] C:\Users\minhd\.android\build-cache\ef7a7df4c6ef24c70e034efaf012c6880798ae69\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] C:\Users\minhd\.android\build-cache\a18d607d46505d4d764518b8316d19d03a0ea3c2\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] C:\Users\minhd\.android\build-cache\c6f335b6583156a655d17676862b41599365fe7c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-auth:9.4.0] C:\Users\minhd\.android\build-cache\58cc7637998bbcad1c73b05a1475f30148add9e7\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] C:\Users\minhd\.android\build-cache\691ebe860a03676e2b9ff02964a968ea028f0062\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] C:\Users\minhd\.android\build-cache\473c1cc2daeb09a3334c9d0c011eb0bc01463943\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] C:\Users\minhd\.android\build-cache\69cc9a25e408ad228062dff96cb7b9a455e534d3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] C:\Users\minhd\.android\build-cache\1920c9253bd3568194b3973594aedbb1abbe66b3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] C:\Users\minhd\.android\build-cache\0336d97a5fb4725da02314ca1948e7f47373f81a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] C:\Users\minhd\.android\build-cache\13404087c0973a12e233f8802bfb9728514f4528\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] C:\Users\minhd\.android\build-cache\d7e4d770c87acc1573012359997e4d060a85447e\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] C:\Users\minhd\.android\build-cache\8dadd445d0dd9e11a53de099847b7aaed2558d30\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] C:\Users\minhd\.android\build-cache\f2852186d0e281161b2b0b03db6f7a2612f7b14a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\minhd\.android\build-cache\e5c84a3e507a28d8b86005dbb2b829329e75ece8\output\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] C:\Users\minhd\.android\build-cache\ae1eadf2597a15e25bd7921713256d223cef504b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] C:\Users\minhd\.android\build-cache\0a219c5841d85f6a43c3b1955eef92956f19420a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] C:\Users\minhd\.android\build-cache\cf91ea30a24897216915154e900c5b65c879a7d4\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] C:\Users\minhd\.android\build-cache\b3e57e71c91b1313c3713acf06b6d6f07054a31c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\4da486f657f62550b966a9a1fbab42637a26d9a8\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\minhd\.android\build-cache\da5b8052785df6c311a93002db909c129955aed1\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] C:\Users\minhd\.android\build-cache\a6053dd5176a861a21727585dfa408dfc4aec70f\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\minhd\.android\build-cache\746fd897844370350f3374c25eadc0c90e2fada5\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] C:\Users\minhd\.android\build-cache\54d09291e794c27b68086a74efd6811248fced44\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\minhd\.android\build-cache\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\minhd\.android\build-cache\808b25b5cc0597f91008b3406ec7199c8a244afc\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\minhd\.android\build-cache\ccca43cb53e3cab51ae8b9ce7e721ffabff286f2\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\minhd\.android\build-cache\10047c73deec6cf792de1870e13c9db604b6e90e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\minhd\.android\build-cache\4445f08257feeb0e25135e208652fafd17191455\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\minhd\.android\build-cache\d1fb13fc30c6a2cd1946a77799d5d7c6fb36a140\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:50:9-41
+	android:supportsRtl
+		ADDED from [com.kaopiz:kprogresshud:1.1.0] C:\Users\minhd\.android\build-cache\01b96983cd307972deeafd3fb0217a07f3b1e249\output\AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:48:9-35
+	android:icon
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:49:9-45
+	android:largeHeap
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:51:9-33
+	android:theme
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:52:9-39
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:47:9-68
+meta-data#com.google.android.gms.version
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:53:9-55:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\minhd\.android\build-cache\ccca43cb53e3cab51ae8b9ce7e721ffabff286f2\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:55:13-66
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:54:13-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:56:9-58:55
+	android:value
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:58:13-52
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:57:13-62
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.Login
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:60:9-70:20
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:64:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:62:13-45
+	android:launchMode
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:61:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:65:13-69:29
+action#android.intent.action.MAIN
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:66:17-69
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:66:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:68:27-74
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.MainActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:71:9-74:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:74:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:73:13-57
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:72:13-57
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.MapActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:75:9-82:20
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:78:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:77:13-55
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:76:13-56
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:79:13-81:65
+	android:value
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:81:17-62
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:80:17-63
+activity#vn.com.vsc.ptpm.VNPT_DMS.vn.BaoCaoActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:83:9-86:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:86:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:85:13-59
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:84:13-46
+activity#vn.com.vsc.ptpm.VNPT_DMS.vn.UploadActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:87:9-90:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:90:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:89:13-58
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:88:13-46
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.AddrActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:91:9-94:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:94:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:93:13-51
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:92:13-57
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.Addr2Activity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:95:9-98:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:98:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:97:13-52
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:96:13-58
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.DataDetailOffline
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:99:9-102:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:102:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:101:13-55
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:100:13-62
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.DataDetailSync
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:103:9-106:59
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:106:13-56
+	android:label
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:105:13-52
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:104:13-59
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.ImagePopupActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:107:9-110:82
+	android:screenOrientation
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:109:13-56
+	android:theme
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:110:13-79
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:108:13-63
+service#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.LocationService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:112:9-119:19
+	android:enabled
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:114:13-35
+	android:exported
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:115:13-36
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:113:13-66
+intent-filter#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.LocationService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:116:13-118:29
+action#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.LocationService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:117:17-105
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:117:25-102
+service#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.SendDataLocationService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:120:9-127:19
+	android:enabled
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:122:13-35
+	android:exported
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:123:13-36
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:121:13-74
+intent-filter#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.SendDataLocationService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:124:13-126:29
+action#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.SendDataLocationService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:125:17-113
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:125:25-110
+service#vn.com.vsc.ptpm.VNPT_DMS.dao.service.CheckIntentService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:128:9-136:19
+	android:enabled
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:130:13-35
+	android:process
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:132:13-38
+	android:exported
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:131:13-36
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:129:13-59
+intent-filter#vn.com.vsc.ptpm.VNPT_DMS.dao.service.CheckIntentService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:133:13-135:29
+action#vn.com.vsc.ptpm.VNPT_DMS.dao.service.CheckIntentService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:134:17-98
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:134:25-95
+receiver#vn.com.vsc.ptpm.VNPT_DMS.vn.BootReceiver
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:138:9-143:20
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:138:19-50
+intent-filter#.vn.BootReceiver+android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:139:13-142:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:140:17-79
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:140:25-76
+action#.vn.BootReceiver
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:141:17-59
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:141:25-56
+receiver#vn.com.vsc.ptpm.VNPT_DMS.Utils.NetworkStateReceiver
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:144:9-148:20
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:144:19-61
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:145:13-147:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:146:17-79
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:146:25-76
+receiver#vn.com.vsc.ptpm.VNPT_DMS.common.LocationUpdate.RestartServiceReceiver
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:149:9-153:20
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:149:19-79
+intent-filter#YouWillNeverKillService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:150:13-152:29
+action#YouWillNeverKillService
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:151:17-66
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:151:25-63
+meta-data#io.fabric.ApiKey
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:155:9-157:72
+	android:value
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:157:13-69
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:156:13-44
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.glab.DeviceListActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:159:9-161:73
+	android:theme
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:161:13-70
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:160:13-68
+activity#vn.com.vsc.ptpm.VNPT_DMS.view.activities.glab.PrintActivity
+ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:162:9-164:72
+	android:theme
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:164:13-70
+	android:name
+		ADDED from D:\Android_project\dms 2\dms 2\app\src\main\AndroidManifest.xml:163:13-63
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\minhd\.android\build-cache\4e8655c2cd2011b0d01cbb5b7a10673eb08801c9\output\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\minhd\.android\build-cache\b11248cc77b20ace3e81fa25614ff08665d0c377\output\AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] C:\Users\minhd\.android\build-cache\eb6cc91e4c83d3f24734c013d2914d0486318f5d\output\AndroidManifest.xml:29:13-58
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\minhd\.android\build-cache\72d1e3b70da4ce3bd4c9e2b1cb753b5a66fae0f5\output\AndroidManifest.xml:8:18-90
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] C:\Users\minhd\.android\build-cache\9b7478f0698bfdac8b37e78ed98e69e02637228a\output\AndroidManifest.xml:29:18-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\minhd\.android\build-cache\9670c1c69a5b56699f2bd5795b33ff534e8828d5\output\AndroidManifest.xml:28:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.4.0] C:\Users\minhd\.android\build-cache\13404087c0973a12e233f8802bfb9728514f4528\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] C:\Users\minhd\.android\build-cache\8dadd445d0dd9e11a53de099847b7aaed2558d30\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] C:\Users\minhd\.android\build-cache\13404087c0973a12e233f8802bfb9728514f4528\output\AndroidManifest.xml:21:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:29:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\minhd\.android\build-cache\245c099b73282a16ed43f6851180915027652d0e\output\AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\minhd\.android\build-cache\c72ba734cd872a162fffdd53711a531f2a8ee5c2\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\minhd\.android\build-cache\799b175837b538df2f74a897cd6303397815da91\output\AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\minhd\.android\build-cache\25c8497147de70f3926a6052784023d0c2d77ec9\output\AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\minhd\.android\build-cache\f2591cf146830b594c79a63e5fdc76c63f53745e\output\AndroidManifest.xml:9:13-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\minhd\.android\build-cache\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\minhd\.android\build-cache\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\minhd\.android\build-cache\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\minhd\.android\build-cache\1023a59bdf3318e7faf5f0534fbe61aa3232b31b\output\AndroidManifest.xml:20:19-85

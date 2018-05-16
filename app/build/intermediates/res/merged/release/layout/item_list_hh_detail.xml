@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dshh_item"
+	android:layout_width="match_parent"
+	android:layout_height="100dp"
+	android:background="@drawable/list_row_selector"
+	android:orientation="horizontal">
+
+	<TextView
+		android:id="@+id/tv_stt"
+		android:layout_width="40dp"
+		android:layout_height="match_parent"
+		android:background="@color/neo_xanhlam"
+		android:gravity="center"
+		android:text="@string/bctk_stt"
+		android:textColor="@color/White"
+		android:textStyle="bold" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="2dp"
+		android:layout_marginTop="2dp"
+		android:orientation="vertical"
+		android:paddingLeft="8dp"
+		android:paddingRight="16dp">
+
+		<TextView
+			android:id="@+id/tv_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ellipsize="end"
+			android:gravity="center_vertical"
+			android:maxLines="2"
+			android:text="@string/hh_ten"
+			android:textColor="@color/Black"
+			android:textSize="16sp"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/tv_gia"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:text="@string/hh_ten"
+			android:textColor="@color/Black"
+			android:textSize="16sp" />
+
+		<TextView
+			android:id="@+id/tv_tonkho"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:text="@string/hh_ten"
+			android:textColor="@color/Black"
+			android:textSize="16sp" />
+	</LinearLayout>
+
+</LinearLayout>

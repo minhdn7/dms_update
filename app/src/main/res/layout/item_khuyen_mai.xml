@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="13"
+        android:background="@color/AntiqueWhite"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/stt"
+            android:gravity="center"
+            android:id="@+id/txtStt"
+            android:background="@color/lprimary"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/idMa"
+            android:gravity="center"
+            android:id="@+id/txtIdMa"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tenChuongTrinh"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/txtTenChuongTrinh"
+            android:textColor="@color/black"
+            android:layout_weight="5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ngayHieuLuc"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/txtNgayHieuLuc"
+            android:textColor="@color/black"
+            android:layout_weight="3.5"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uncheck"
+            android:id="@+id/imgCheckKhuyenMai"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listKhaoSat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="11">
+
+        <TextView
+            android:id="@+id/txtItemSTT"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@color/neo_xanhlam"
+            android:gravity="center"
+            android:text="STT"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/White"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemNhanHieu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="Hải Phòng"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemChungLoai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="@string/chungLoai2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemNhaPhanPhoi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="@string/nhaPhanPhoi2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemChiPhiVanTai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="@string/cpVanTai2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemChiPhiBocXep"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="@string/cpBocXep2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemGiaDenCuaHang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="@string/giaDenCuaHang2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemGiaBan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:text="@string/giaBan2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtItemSanLuongDuKien"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="2dp"
+        android:text="@string/sanLuongDuKien2"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@color/Black"
+        android:textSize="14sp" />
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_margin="4dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:id="@+id/imgRemoveItem"
+            android:src="@drawable/ic_delete2"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_margin="4dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:id="@+id/imgEditItem"
+            android:src="@drawable/ic_edit_32_color"/>
+    </LinearLayout>

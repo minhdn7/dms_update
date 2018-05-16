@@ -1,0 +1,623 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.com.vsc.ptpm.VNPT_DMS.view.fragment.tmx.ThongTinTuyenFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/dh_layout_lapdh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/primary_layout_bg"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:padding="8dp"
+                    android:text="@string/thongTinKhachHang"
+                    android:textAllCaps="true"
+                    android:textColor="@color/neoxanhlam"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/txt_title_ldh"
+                    android:layout_margin="1dp"
+                    android:background="@color/neo_xanhngoc" />
+            </RelativeLayout>
+
+            <!-- Layout 1 -->
+            <LinearLayout
+                android:id="@+id/layout_ldh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Ngày giờ lấy mẫu -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/et_tenCH"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/ngayLayMau" />
+
+                    <TextView
+                        android:id="@+id/txtNgayGioLayMau"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:textSize="14sp"
+                        android:completionThreshold="1"
+                        android:ems="10"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true" />
+
+                    <!--<AutoCompleteTextView-->
+                    <!--android:id="@+id/txtTenKhachHang"-->
+                    <!--style="@style/primary_edittext_style"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/edittext_bg"-->
+                    <!--android:completionThreshold="1"-->
+                    <!--android:ems="20"-->
+                    <!--android:imeOptions="flagNoExtractUi"-->
+                    <!--android:spinnerMode="dialog"-->
+                    <!--android:singleLine="true" />-->
+                </LinearLayout>
+
+                <!-- Nhà phân phối -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/nhaPhanPhoi" />
+
+
+                    <AutoCompleteTextView
+                        android:id="@+id/txtNhaPhanPhoi"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:completionThreshold="1"
+                        android:ems="20"
+                        android:imeOptions="flagNoExtractUi"
+                        android:spinnerMode="dialog"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <!-- Họ và tên -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/hoTen" />
+
+
+                    <EditText
+                        android:id="@+id/txtHoTen"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:spinnerMode="dialog"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <!-- năm sinh -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/namSinh" />
+
+                    <EditText
+                        android:id="@+id/txtNam"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:inputType="number"
+                        android:background="@drawable/edittext_bg" />
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.9">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:text="@string/gioiTinh" />
+
+                        <RadioButton
+                            android:id="@+id/ckGioiTinhNam"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layoutDirection="rtl"
+                            android:text="Nam" />
+
+                        <RadioButton
+                            android:id="@+id/ckGioiTinhNu"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layoutDirection="rtl"
+                            android:text="Nữ" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Địa chỉ -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/diaChi" />
+
+
+                    <EditText
+                        android:id="@+id/txtDiaChi"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:spinnerMode="dialog"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <!-- Email điện thoại -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/email" />
+
+                    <EditText
+                        android:id="@+id/txtEmail"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/edittext_bg"
+                        android:spinnerMode="dialog"
+                        android:singleLine="true" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="6">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/dienThoai" />
+
+                        <EditText
+                            android:id="@+id/txtDienThoai"
+                            style="@style/primary_edittext_style"
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_bg"
+                            android:spinnerMode="dialog"
+                            android:inputType="number"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Chuẩn đoán -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/chuanDoan" />
+
+
+                    <EditText
+                        android:id="@+id/txtChuanDoan"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:spinnerMode="dialog"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <!-- Ngày giờ hẹn trả -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/ngayGioHenTra" />
+
+
+                    <EditText
+                        android:id="@+id/txtNgayHenTra"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:textIsSelectable="true"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+
+                <!-- Tiền khuyến mại -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/tienKhuyenMai2" />
+
+
+                    <EditText
+                        android:id="@+id/txtTienKhuyenMai"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:spinnerMode="dialog"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <!-- Ghi chú -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/ghiChu" />
+
+
+                    <EditText
+                        android:id="@+id/txtGhiChu"
+                        style="@style/primary_edittext_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.9"
+                        android:background="@drawable/edittext_bg"
+                        android:spinnerMode="dialog"
+                        android:inputType="text"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="8dp"
+                        android:text="@string/danhSachXetNghiem"
+                        android:textAllCaps="true"
+                        android:textColor="@color/neoxanhlam"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btnThemXetNghiem"
+                        style="@style/primary_button_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/primary_button_selector"
+                        android:drawableLeft="@drawable/ic_plus2"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/them"
+                        android:textAllCaps="true"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/txt_title_ldh"
+                        android:layout_margin="1dp"
+                        android:background="@color/neo_xanhngoc" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/txt_title_ldh"
+                    android:layout_margin="1dp"
+                    android:background="@color/neo_xanhngoc" />
+
+                <LinearLayout
+                    android:id="@+id/listKhaoSat"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:weightSum="11">
+
+                    <TextView
+                        android:id="@+id/txtSTT"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="4dp"
+                        android:background="@color/neo_xanhlam"
+                        android:gravity="center"
+                        android:text="STT"
+                        android:textColor="@color/White"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/txtMa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:ellipsize="end"
+                        android:maxLines="3"
+                        android:paddingLeft="2dp"
+                        android:text="@string/ma"
+                        android:textColor="@color/Black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/txtTen"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:paddingLeft="2dp"
+                        android:text="@string/ten"
+                        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                        android:textColor="@color/Black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/txtThanhTien"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:paddingLeft="2dp"
+                        android:text="@string/thanhTien"
+                        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                        android:textColor="@color/Black"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/lvDanhSachDonhang"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/primary_layout_bg"
+                    android:descendantFocusability="beforeDescendants"
+                    android:divider="@color/ldivider"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@drawable/list_row_selector"/>
+
+                <TextView
+                    android:id="@id/android:empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Không có dữ liệu"
+                    android:textColor="@color/Red"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_btnDH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="4dp"
+                    android:paddingRight="4dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="8dp" >
+
+                    <Button
+                        android:id="@+id/btnCapNhat"
+                        style="@style/primary_button_style"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_toLeftOf="@+id/btnInBienlai"
+                        android:background="@drawable/primary_button_selector"
+                        android:text="@string/capNhat"
+                        android:textAllCaps="true"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/btnInBienlai"
+                        style="@style/primary_button_style"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_toLeftOf="@+id/btnGuiDH"
+                        android:background="@drawable/primary_button_selector"
+                        android:text="@string/inBienLai"
+                        android:textAllCaps="true"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/btnThoat"
+                        style="@style/primary_button_style"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/btnInBienlai"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/primary_button_selector"
+                        android:text="@string/thoat"
+                        android:textAllCaps="true"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true" >
+
+                        <TextView
+                            android:id="@+id/txtTongTienHang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:padding="4dp"
+                            android:text="Tổng tiền hàng: "
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtKhuyenMai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/txtTongTienHang"
+                            android:padding="4dp"
+                            android:text="Khuyến mại: " />
+
+                        <TextView
+                            android:id="@+id/txtTongTien"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/txtKhuyenMai"
+                            android:padding="4dp"
+                            android:text="Tổng tiền: "
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/primary_layout_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tv_NVKD1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/bctk_nvkd"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn_searchRPT1"
+                style="@style/primary_button_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/primary_button_selector"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/bctk_search"
+                android:textColor="@color/White"/>
+
+            <Spinner
+                android:id="@+id/sp_NVKD1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btn_searchRPT1"
+                android:layout_toRightOf="@+id/tv_NVKD1"
+                android:gravity="center_vertical"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_date1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sp_NVKD1"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/btn_searchRPT1"
+                android:layout_toRightOf="@+id/tv_NVKD1">
+
+                <EditText
+                    android:id="@+id/et_startDate1"
+                    style="@style/primary_edittext_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/edittext_bg"
+                    android:focusable="false"/>
+
+                <ImageView
+                    android:id="@+id/iv_startDate1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/et_startDate1"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_calendar"/>
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_startDate1"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_Ngay_TKC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:orientation="horizontal"
+                        android:text="Thống kê theo ngày"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radio_Thang_TKC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:text="Lũy kế tháng"
+                        />
+                </RadioGroup>
+
+
+                <EditText
+                    android:id="@+id/et_endDate1"
+                    style="@style/primary_edittext_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/edittext_bg"
+                    android:focusable="false"/>
+
+                <ImageView
+                    android:id="@+id/iv_endDate1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/et_endDate1"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_calendar"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/primary_layout_bg"
+        android:orientation="vertical">
+
+        <!-- Row 1 -->
+
+        <LinearLayout
+            android:id="@+id/linearResult_RPT_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/listview_normal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border_outside_listview"
+                android:baselineAligned="false"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".063"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/bctk_stt"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".43"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bctk_noidung"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bctk_chitieu"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bctk_ketquaTH"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bctk_conlai"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/boder_tablelayout"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bctk_tiendo"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4Listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_outside_listview"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/listview_normal"
+                android:divider="@color/ldivider"
+                >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

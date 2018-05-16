@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vn.com.vsc.ptpm.VNPT_DMS.view.fragment.tmx.DanhSachKhaoSatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/layout_adv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:paddingTop="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="true"
+                android:text="@string/khachHang"/>
+            <AutoCompleteTextView
+                android:id="@+id/txtKhachHang"
+                style="@style/primary_edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="@drawable/edittext_bg"
+                android:hint="@string/khachHang"
+                android:singleLine="true"
+                android:imeOptions="actionNext" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="true"
+                    android:text="@string/thang"/>
+                <EditText
+                    android:id="@+id/txtThang"
+                    style="@style/primary_edittext_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="@string/thang"
+                    android:inputType="date"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext" />
+
+                <ImageButton
+                    android:id="@+id/btnThangKhaoSat"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/primary_imgbtn_selector"
+                    android:src="@drawable/ic_calendar3" />
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    style="@style/primary_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/primary_button_selector"
+                    android:text="@string/btn_timKiemKH"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/md_blue_500"
+        />
+    <ListView
+        android:id="@+id/lvDanhSachKhaoSat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants" />
+
+
+
+</LinearLayout>

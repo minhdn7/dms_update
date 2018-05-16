@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin="10dp"
+	android:background="@drawable/primary_layout_bg"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2"
+		android:padding="2dp">
+
+		<fragment
+			android:id="@+id/mapAddr"
+			android:name="com.google.android.gms.maps.SupportMapFragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp">
+
+		<TextView
+			android:id="@+id/tv_title_address"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_centerInParent="true"
+			android:text="@string/bctk_diachi"
+			android:textSize="16sp"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/et_diachiKH"
+			style="@style/primary_edittext_style"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/tv_title_address"
+			android:layout_toLeftOf="@+id/btn_UpdateLocaltion"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_centerInParent="true"
+			android:background="@drawable/edittext_bg"
+			android:inputType="text"
+			android:enabled="false" />
+
+		<Button
+			android:id="@+id/btn_UpdateLocaltion"
+			style="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:layout_toLeftOf="@+id/btn_Thoat"
+			android:layout_centerInParent="true"
+			android:background="@drawable/primary_button_selector"
+			android:ellipsize="end"
+			android:text="@string/title_get_address"
+			android:textColor="@color/white" />
+		
+		<Button
+			android:id="@+id/btn_Thoat"
+			style="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_centerInParent="true"
+			android:layout_marginLeft="10dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:background="@drawable/primary_button_selector"
+			android:text="@string/addr_thoat"
+			android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+</LinearLayout>

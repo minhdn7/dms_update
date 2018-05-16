@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\login.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\popup_dskh.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\popup_dskh.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\bao_cao.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\bao_cao.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\upload.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\upload.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\bando_fragment_item.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\bando_fragment_item.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\release\\menu\\map.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\menu\\map.xml"
+    }
+]

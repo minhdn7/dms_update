@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+	
+    <!-- List item color -->
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_row_start_color">#FFFFFF</color>
+    <color name="list_row_center_color">#FFFFFF</color>
+    <color name="list_row_end_color">#FFFFFF</color>
+    <color name="list_row_hover_start_color">#cfd8dc</color>
+    <color name="list_row_hover_end_color">#cfd8dc</color>
+
+    <!-- text color -->
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="neoxanhlam">#315ba7</color>
+    <color name="neovang">#f6d200</color>
+    <color name="neoxanhngoc">#00aa9d</color>
+
+    <!-- material color -->
+    <color name="primary">#673ab7</color>
+    <color name="primary_dark">#512da8</color>
+    <color name="accent">#ffc400</color>
+    <color name="text_primary">#D9FFFFFF</color>
+    <color name="text_secondary">#D9000000</color>
+
+    <!-- myAppTheme color -->
+    <color name="apptheme_primary">#009688</color>
+    <color name="apptheme_primary_dark">#00796b</color>
+    <color name="apptheme_accent">@android:color/white</color>
+    <color name="gradient_start">#50000000</color>
+    <color name="gradient_light_start">#30000000</color>
+
+    <!-- my design color -->
+    <color name="ldark_primary">#303F9F</color>
+    <color name="lprimary">#315ba7</color>
+    <color name="llight_primary">#C5CAE9</color>
+    <color name="ltext">#FFFFFF</color>
+    <color name="laccent">#30000000</color>
+    <color name="lprimary_text">#212121</color>
+    <color name="lsecond_text">#727272</color>
+    <color name="ldivider">#B6B6B6</color>
+    
+    <color name="listview_normal">#F0F8FF</color>
+    <color name="listview_select">#caf0cc</color>
+    
+
+</resources>
