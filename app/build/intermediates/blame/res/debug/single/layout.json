@@ -36,20 +36,20 @@
         "source": "C:\\Users\\minhd\\.android\\build-cache\\0a219c5841d85f6a43c3b1955eef92956f19420a\\output\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
-        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_khachhang_new.xml",
-        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout\\item_list_khachhang_new.xml"
-    },
-    {
-        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_addsp2.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout\\item_list_addsp2.xml"
     },
     {
         "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_addsp2.xml",
-        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout\\item_list_addsp2.xml"
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\minhd\\.android\\build-cache\\c3934eb630b0bd09bb6c7a8c4cb3057e7afc08cb\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_khachhang_new.xml",
+        "source": "D:\\Android_project\\dms 2\\dms 2\\app\\src\\main\\res\\layout\\item_list_khachhang_new.xml"
     },
     {
         "merged": "D:\\Android_project\\dms 2\\dms 2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
